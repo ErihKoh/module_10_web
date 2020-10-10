@@ -41,6 +41,6 @@ app.get('/products/:productId', (req, res) => {
 })
 
 
-app.listen(4444, () => {
-    console.log(`Application server is running on port ${4444}`);
+app.listen(PORT, () => {
+    console.log(`Application server is running on port ${PORT}`);
 });
